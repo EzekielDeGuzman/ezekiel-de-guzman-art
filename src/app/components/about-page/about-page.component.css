@@ -1,0 +1,11 @@
+.mainHolder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.artwork {
+  background-color: red;
+  width: 480px;
+  height: 480px;
+  margin: auto;
+}

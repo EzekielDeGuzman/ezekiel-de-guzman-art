@@ -1,0 +1,44 @@
+<div class="artworksHolder">
+  <div class="artwork1" (click)="openArtworkDetails(1)"></div>
+  <div class="artwork2" (click)="openArtworkDetails(2)"></div>
+  <div class="artwork1" (click)="openArtworkDetails(3)"></div>
+  <div class="artwork2" (click)="openArtworkDetails(4)"></div>
+  <div class="artwork1" (click)="openArtworkDetails(5)"></div>
+  <div class="artwork2" (click)="openArtworkDetails(6)"></div>
+  <div class="artwork1" (click)="openArtworkDetails(7)"></div>
+  <div class="artwork2" (click)="openArtworkDetails(8)"></div>
+  <div class="artwork1" (click)="openArtworkDetails(9)"></div>
+  <div class="artwork2" (click)="openArtworkDetails(10)"></div>
+  <div class="artwork1" (click)="openArtworkDetails(11)"></div>
+  <div class="artwork2" (click)="openArtworkDetails(12)"></div>
+  <div class="artwork1" (click)="openArtworkDetails(13)"></div>
+</div>
+
+@if(selectedArtwork === 1) {
+<app-artwork-1></app-artwork-1>
+<div class="closeButton" (click)="closeModal()">X</div>
+} @else if(selectedArtwork === 2) {
+<app-artwork-2></app-artwork-2>
+} @else if(selectedArtwork === 3) {
+<app-artwork-3></app-artwork-3>
+} @else if(selectedArtwork === 4) {
+<app-artwork-4></app-artwork-4>
+} @else if(selectedArtwork === 5) {
+<app-artwork-5></app-artwork-5>
+} @else if(selectedArtwork === 6) {
+<app-artwork-6></app-artwork-6>
+} @else if(selectedArtwork === 7) {
+<app-artwork-7></app-artwork-7>
+} @else if(selectedArtwork === 8) {
+<app-artwork-8></app-artwork-8>
+} @else if(selectedArtwork === 9) {
+<app-artwork-9></app-artwork-9>
+} @else if(selectedArtwork === 10) {
+<app-artwork-10></app-artwork-10>
+} @else if(selectedArtwork === 11) {
+<app-artwork-11></app-artwork-11>
+} @else if(selectedArtwork === 12) {
+<app-artwork-12></app-artwork-12>
+} @else if(selectedArtwork === 13) {
+<app-artwork-13></app-artwork-13>
+}

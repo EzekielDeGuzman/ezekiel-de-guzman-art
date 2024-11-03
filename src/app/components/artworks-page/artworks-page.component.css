@@ -1,0 +1,47 @@
+.artworksHolder {
+  /* background-color: green; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+.artwork1 {
+  background-color: red;
+  width: 360px;
+  height: 360px;
+  margin-bottom: 24px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.artwork2 {
+  background-color: rgb(17, 0, 255);
+  width: 360px;
+  height: 360px;
+  margin-bottom: 24px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.artwork1:hover,
+.artwork2:hover {
+  cursor: pointer;
+}
+
+.closeButton {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+  position: fixed;
+  right: 48px;
+  top: 48px;
+  z-index: 100;
+  transition: 0.2s;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+  color: rgb(161, 161, 161);
+}

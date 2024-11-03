@@ -1,0 +1,26 @@
+.modalHolder {
+  background-color: rgb(29, 29, 29);
+  z-index: 99;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: max-content;
+}
+
+.artworkTitle {
+  color: white;
+}
+
+.artworkMedium {
+  color: white;
+}
+
+.artwork {
+  background-color: red;
+  width: 480px;
+  height: 480px;
+  margin: auto;
+}

@@ -1,0 +1,19 @@
+<div class="navHolder">
+  <div class="name">Ezekiel De Guzman</div>
+  <div class="navItemHolder">
+    <!-- <app-artworks-page></app-artworks-page> -->
+    <div class="navItem" (click)="changeTab('ABOUT')">ABOUT</div>
+    <div class="navItem" (click)="changeTab('ARTWORKS')">ARTWORKS</div>
+    <div class="navItem" (click)="changeTab('CV')">CV</div>
+    <div class="navItem" (click)="changeTab('CONTACT')">CONTACT</div>
+  </div>
+</div>
+@if(currentPage === "ABOUT") {
+<app-about-page></app-about-page>
+} @else if(currentPage === "ARTWORKS") {
+<app-artworks-page></app-artworks-page>
+} @else if(currentPage === "CV") {
+<app-cv></app-cv>
+} @else if(currentPage === "CONTACT") {
+<app-contact-page></app-contact-page>
+}

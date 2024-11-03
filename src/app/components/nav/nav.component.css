@@ -1,0 +1,29 @@
+.navHolder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 48px;
+  background-color: blue;
+}
+
+.name {
+  background-color: red;
+  width: 100%;
+  font-size: 24px;
+}
+
+.navItemHolder {
+  background-color: green;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navItem {
+  margin-right: 24px;
+}
+
+.navItem:hover,
+.name:hover {
+  cursor: pointer;
+}
