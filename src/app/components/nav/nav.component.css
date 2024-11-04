@@ -2,18 +2,22 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 48px;
-  background-color: blue;
+  height: 64px;
+
+  margin-bottom: 24px;
+  /* background-color: blue; */
 }
 
 .name {
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
-  font-size: 24px;
+  font-size: 32px;
+  margin-left: 48px;
+  font-family: Helvetica;
 }
 
 .navItemHolder {
-  background-color: green;
+  /* background-color: green; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -21,6 +25,7 @@
 
 .navItem {
   margin-right: 24px;
+  font-family: Helvetica;
 }
 
 .navItem:hover,

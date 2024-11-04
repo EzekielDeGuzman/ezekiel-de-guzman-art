@@ -7,30 +7,34 @@
 }
 
 .artwork1 {
-  background-color: red;
+  /* background-color: red; */
   width: 360px;
   height: 360px;
   margin-bottom: 24px;
   margin-left: 12px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.541);
   margin-right: 12px;
 }
 
 .artwork2 {
-  background-color: rgb(17, 0, 255);
+  /* background-color: rgb(17, 0, 255); */
   width: 360px;
   height: 360px;
   margin-bottom: 24px;
   margin-left: 12px;
   margin-right: 12px;
+  transition: scale 0.2s ease-in-out;
 }
 
 .artwork1:hover,
 .artwork2:hover {
   cursor: pointer;
+  scale: 1.05;
 }
 
 .closeButton {
-  color: white;
+  color: rgb(77, 77, 77);
   font-size: 24px;
   font-weight: 600;
   font-family: sans-serif;

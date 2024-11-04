@@ -17,7 +17,7 @@ import { ContactPageComponent } from '../contact-page/contact-page.component';
   styleUrl: './nav.component.css',
 })
 export class NavComponent {
-  currentPage: string = 'CV';
+  currentPage: string = 'ARTWORKS';
   changeTab(tab: string) {
     this.currentPage = tab;
   }

@@ -1,5 +1,5 @@
 .modalHolder {
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(255, 255, 255);
   z-index: 99;
   position: absolute;
   top: 0px;
@@ -10,17 +10,54 @@
   height: max-content;
 }
 
+.artworkDetails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: auto;
+}
+
 .artworkTitle {
-  color: white;
+  color: rgb(77, 77, 77);
+  font-family: Helvetica;
+  font-size: 20px;
+  margin-bottom: 8px;
+  /* font-weight: 600; */
 }
 
 .artworkMedium {
-  color: white;
+  color: rgb(167, 167, 167);
+
+  font-family: Helvetica;
+}
+
+.artworkHolder {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .artwork {
-  background-color: red;
-  width: 480px;
+  /* background-color: red; */
+  /* width: 480px; */
   height: 480px;
+  margin: auto;
+  margin-bottom: 24px;
+  box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.541);
+  border-radius: 8px;
+}
+
+.extras {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  margin-top: 24px;
+}
+
+.artworkDescription {
+  color: rgb(77, 77, 77);
+  width: 800px;
+  font-family: Helvetica;
   margin: auto;
 }

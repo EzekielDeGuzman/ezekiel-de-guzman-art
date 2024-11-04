@@ -1,0 +1,8 @@
+.mainHolder {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  color: rgb(167, 167, 167);
+  font-family: Helvetica;
+}
